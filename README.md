@@ -6,12 +6,12 @@ This repository contains the complete pipeline for detecting fashion products fr
 The goal of this project is to build a robust fashion product detection and retrieval system. The system detects clothing items from images, crops these items, and generates descriptive text prompts. Using these crops and prompts, the CLIP model is fine-tuned to better understand the fashion domain and associate images with textual descriptions. Finally, image embeddings are indexed using FAISS for efficient similarity search, enabling fast retrieval of similar fashion products.
 
 ### Features
-Object Detection: Uses the YOLOS Fashionpedia pre-trained model to detect fashion items in images.
-Crop Extraction: Extracts and saves image crops of detected items with bounding box coordinates.
-Prompt Generation: Generates natural language prompts for each detected item using predefined templates.
-CLIP Fine-tuning: Fine-tunes OpenAI’s CLIP model on the cropped images and prompts to adapt it for the fashion domain.
-Embedding & Indexing: Generates normalized image embeddings and builds a FAISS index for fast similarity search.
-Fault Tolerant: Handles missing or corrupt images gracefully during training and inference.
+* Object Detection: Uses the YOLOS Fashionpedia pre-trained model to detect fashion items in images.
+* Crop Extraction: Extracts and saves image crops of detected items with bounding box coordinates.
+* Prompt Generation: Generates natural language prompts for each detected item using predefined templates.
+* CLIP Fine-tuning: Fine-tunes OpenAI’s CLIP model on the cropped images and prompts to adapt it for the fashion domain.
+* Embedding & Indexing: Generates normalized image embeddings and builds a FAISS index for fast similarity search.
+* Fault Tolerant: Handles missing or corrupt images gracefully during training and inference.
 
 
 ### Dataset
