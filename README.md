@@ -15,6 +15,6 @@ The goal of this project is to build a robust fashion product detection and retr
 
 
 ### Dataset
-Source: Original dataset consists of fashion product images along with metadata including image URLs and unique IDs.
-Detection Outputs: Crops saved locally with labels and associated prompts.
-CLIP Training Data: CSV file containing image paths, labels, and textual prompts for fine-tuning.
+* Source: Original dataset consists of fashion product images along with metadata including image URLs and unique IDs.
+* Detection Outputs: Crops saved locally with labels and associated prompts.
+* CLIP Training Data: CSV file containing image paths, labels, and textual prompts for fine-tuning.
